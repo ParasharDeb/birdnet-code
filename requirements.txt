@@ -1,0 +1,19 @@
+# --- API ---
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+pydantic==2.10.5
+pydantic-settings==2.7.1
+
+# --- BirdNET ---
+birdnetlib==0.18.0
+tensorflow==2.18.0
+
+# --- audio I/O ---
+librosa==0.10.2.post1
+soundfile==0.12.1
+resampy==0.4.3
+numpy==1.26.4
+
+# --- testing / smoke test ---
+httpx==0.28.1
